@@ -1,0 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package simpleatm;
+
+/**
+ *
+ * @author Ahmed Ehab
+ */
+public class MainClass {
+
+    public static void main(String[] args) {
+
+        ATM bi = new ATM(0.0);
+        String s1;
+        LoginScreen login = new LoginScreen();
+        // s1=ATM.getBalance();
+        // System.out.println("Balance is "+s1);
+
+    }
+}
